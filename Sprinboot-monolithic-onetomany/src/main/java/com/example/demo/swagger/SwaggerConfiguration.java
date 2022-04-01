@@ -28,7 +28,7 @@ public class SwaggerConfiguration {
 	}
 
 	private ApiInfo getApiInfo() {
-		return new ApiInfoBuilder().title("Get Energy Rest API Documentation")
+		return new ApiInfoBuilder().title("One To Many Rest API Documentation")
 				.description("The REST APIs of onetomany mapping report App application Version 1.0.0").version("6.1.0")
 				.contact(new Contact("Swagger", "http://swagger.io", "apiteam@swagger.io")).license("Apache 2.0")
 				.licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html").build();
